@@ -1,8 +1,8 @@
 body {
-  min-height: 5000px;
+  min-height: 1500px;
 }
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 3rem;
   background-color: #e2edff;
 }
 #projects {
