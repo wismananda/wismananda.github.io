@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- MY CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio | Wismananda Perdana</title>
@@ -44,7 +48,7 @@
     <section class="jumbotron text-center">
       <img src="img/nanda.jpg" alt="Wisma Nanda" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Wisma Nanda</h1>
-      <p class="lead">Freelancer | Design Graphic</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -57,20 +61,20 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container">  
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <p>
               Nama saya Wismananda Perdana Nazzibulloh saya lulus di Universitas Telkom jurusan D4 Teknologi Rekayasa Multimedia lulus ditahun 2020, saya bisa menguasai adobe ilustrator, adobe XD, photoshop, corel draw, mic word, mic excell,
               unity 3D game, sketchup, blender 3D, dan menguasai beberapa bahasa progammer seperti CSS, HTML, PHP.
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
             <p>Dan untuk pengalaman kerja yaitu praktek ditahun 2019 di star up Vallet diposisi graphic design dan di tahun 2020 yaitu magang di perusahaan PT Angkasa Pura I di posisi training design dan development</p>
           </div>
         </div>
@@ -96,7 +100,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card"  data-aos="zoom-in" data-aos-duration="500">
               <img src="img/projects/AP-06.jpg" class="card-img-top" alt="projects AP-06"">
               <div class="card-body">
                 <h5 class="card-title">UI Design Property</h5>
@@ -107,7 +111,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card"  data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
               <img src="img/projects/UI-06.jpg" class="card-img-top" alt="projects UI-06">
               <div class="card-body">
                 <h5 class="card-title">UI Design Magang</h5>
@@ -118,7 +122,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
               <img src="img/projects/1.jpg" class="card-img-top" alt="1">
               <div class="card-body">
                 <h5 class="card-title">Poster</h5>
@@ -129,7 +133,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
               <img src="img/projects/filmpendekweb.jpg" class="card-img-top" alt="filmpendekweb">
               <div class="card-body">
                 <h5 class="card-title">Film Pendek</h5>
@@ -140,7 +144,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
               <img src="img/projects/filmpendek.jpg" class="card-img-top" alt="filmpendek">
               <div class="card-body">
                 <h5 class="card-title">Film pendek</h5>
@@ -156,11 +160,7 @@
       </div>
       <!-- Akhir Projects -->
 
-     
 
-     
-
- 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -169,15 +169,10 @@
         ></path>
       </svg>
     </section>
-   
 
     <div class="section">
       <div class="container">
         <div class="row">
-
-         
-
-         
         </div>
       </div>
     </div>
@@ -220,6 +215,7 @@
           </div>
         </div>
       </div>
+     
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffc107"
@@ -228,13 +224,22 @@
         ></path>
       </svg>
     </section>
+    
     <!-- Akhir Contact -->
 
 
 
     <!-- Footer -->
+    <footer class="bg-warning text-white pb-5 mb-3">
+     <div class="container">
+       <div class="row text-center">
+         <div class="col">
+           <h2>kontak</h2>
+         </div>
+       </div>
+     </div>
     <footer class="bg-warning text-white text-center pb-5">
-      <p>Created with by <a href="https://www.instagram.com/jsd_design_/?hl=id" class="text-white fw-bold">jsd_design_</a></p>
+      
       <a href="https://www.linkedin.com/in/wisma-nanda-ab05741b6/">
         <img src="img/projects/icon2.png" alt="icon2" style="width:42px;height:42px;">
       </a>
@@ -245,11 +250,42 @@
         <img src="img/projects/icon3.png" alt="icon2" style="width:42px;height:42px;">
       </a>
 
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Created with by <a href="https://www.instagram.com/jsd_design_/?hl=id" class="text-white fw-bold">jsd_design_</a></p>
+          </div>
+        </div>
+      </div>
+     
+
     </footer>
     <!-- Akhir footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      AOS.init({
+       
+        duration: 2000,
+      });
+    </script>
+<!-- animasi element -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(TextPlugin);
+  gsap.to('.lead',{duration: 2, delay: 1.5, text: 'Freelancer | Design Graphic' });
+  
+  gsap.from('.jumbotron img', {duration: 1, rotateY: 360, opacity: 0,});
+  gsap.from('.navbar', {duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+  gsap.from('.display-4', {duration: 1,x: -50, opacity: 0, delay: 0.5, ease: 'back'});
+</script>
+<!-- akhir animasi element -->
+  
+  <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwnCBEzI58d8NLH15NX2FHZh4gsyrd7IIuaN0GqUeXdmjGLB5qFcaYrq20F0v1582LV/exec'
       const form = document.forms['wpu-contact-form']; 
     const btnKirim = document.querySelector('.btn-kirim');

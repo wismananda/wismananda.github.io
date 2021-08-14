@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- MY CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio | Wismananda Perdana</title>
@@ -51,7 +54,7 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right">
               <p>Latar belakang dari aplikasi ini adalah 
                 permintaan dari client perumahan 
                 Nagrak Hills untuk mempromosikan 
@@ -68,7 +71,7 @@
                 jadi saya menawarkan aplikasi 
                 media </p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-left"  data-aos-delay="200">
               <p>iklan digital yang baru, dapat 
                 membantu memasarkan suatu produk 
                 yang dimiliki oleh suatu perusahaan.
@@ -98,7 +101,7 @@
   </div>  
   <div class="row justify-content-center">
     <div class="col-4 mb-3">
-      <div class="card">
+      <div class="card" data-aos="flip-left">
         <img src="img/projects/AP-01.jpg" class="card-img-top" alt="projects AP-01">
         <div class="card-body">
           <p class="card-text text-center"> Video logo nagrak hill  </p>
@@ -106,7 +109,7 @@
       </div>
     </div>
     <div class="col-4 mb-3">
-      <div class="card">
+      <div class="card" data-aos="flip-left">
         <img src="img/projects/AP-02.jpg" class="card-img-top" alt="projects AP-02">
         <div class="card-body">
           <p class="card-text text-center">opening video </p>
@@ -114,7 +117,7 @@
       </div>
     </div>
     <div class="col-4 mb-3">
-      <div class="card">
+      <div class="card" data-aos="flip-left">
         <img src="img/projects/AP-03.jpg" class="card-img-top" alt="projects AP-03">
         <div class="card-body">
           <p class="card-text text-center">Tampilan Loading</p>
@@ -122,7 +125,7 @@
       </div>
     </div>
     <div class="col-4 mb-3">
-      <div class="card">
+      <div class="card" data-aos="flip-left">
         <img src="img/projects/AP-04.jpg" class="card-img-top" alt="projects AP-04">
         <div class="card-body">
           <p class="card-text text-center">Tampilan menu katalog rumah </p>
@@ -130,7 +133,7 @@
       </div>
     </div>
     <div class="col-4 mb-3">
-      <div class="card">
+      <div class="card" data-aos="flip-left">
         <img src="img/projects/AP-05.jpg" class="card-img-top" alt="projects AP-05">
         <div class="card-body">
           <p class="card-text text-center">Tampilan menu katalog rumah </p>
@@ -138,7 +141,7 @@
       </div>
     </div>
     <div class="col-4 mb-3">
-      <div class="card">
+      <div class="card" data-aos="flip-left">
         <img src="img/projects/AP-06.jpg" class="card-img-top" alt="projects AP-06">
         <div class="card-body">
           <p class="card-text text-center">Tampilan Scan AR</p>
@@ -163,7 +166,7 @@
       <div class="row">
         <div class="col-md-4">
           <h1>Video</h1>
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <img src="img/projects/AP-06.jpg" class="card-img-top" alt="projects AP-06">
             <div class="card-body">
               <h5 class="card-title">UI Design Magang</h5>
@@ -233,5 +236,14 @@
     <!-- Akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+       
+        duration: 2000,
+      });
+    </script>
+ 
   </body>
 </html>
